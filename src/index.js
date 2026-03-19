@@ -1,0 +1,11 @@
+export { HeuristicStructuredOutputModel } from './structured-output.js';
+export { TemplateLibrary } from './template-library.js';
+export { ConstraintLayoutEngine } from './constraint-layout.js';
+export { PptxExporter } from './exporter.js';
+export { PresentationPipeline } from './pipeline.js';
+export { assertStructuredDeck, slideKinds } from './schema.js';
+export { loadLlmConfig } from './config.js';
+export { OpenAIStructuredOutputModel } from './openai-model.js';
+export { createStructuredOutputModel } from './model-factory.js';
+export { assertOutline, buildHeuristicOutline } from './outline.js';
+export { DeckEditor } from './deck-editor.js';

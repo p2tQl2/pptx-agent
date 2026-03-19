@@ -1,0 +1,18 @@
+{
+  "name": "pptx-agent",
+  "version": "0.1.0",
+  "description": "LLM-driven structured PPT generation pipeline with semantic templates, constraint layout, and PptxGenJS export.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "pptx",
+    "llm",
+    "structured-output",
+    "pptxgenjs"
+  ],
+  "license": "MIT"
+}
